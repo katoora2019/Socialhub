@@ -1,0 +1,84 @@
+/* General page style */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Header style */
+header {
+  background: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+/* Home page hero */
+.home-hero { background: linear-gradient(135deg, #4CAF50, #81C784); }
+
+/* About page hero */
+.about-hero { background: linear-gradient(135deg, #388E3C, #81C784); }
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #4CAF50;
+}
+
+/* Friends list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #e8f5e9;
+  margin: 8px 0;
+  padding: 10px;
+  border-left: 5px solid #4CAF50;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
